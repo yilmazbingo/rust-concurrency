@@ -1,0 +1,17 @@
+[package]
+name = "concurrency"
+version = "0.1.0"
+edition = "2021"
+path = "basics.rs"
+
+[lib]
+name = "concurrency"
+path = "src/basics.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ureq="2.5.0"
+# enable full feature to make all of the tokio's capability available
+tokio={version="1.17",features=["full"]}
+

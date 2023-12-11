@@ -1,0 +1,11 @@
+{
+  "name": "concurrrency",
+  "version": "1.0.0",
+  "description": "concurrency",
+  "main": "index.js",
+  "scripts": {
+    "push": "git add . && git commit -m \" Updates\" && git push"
+  },
+  "author": "newName",
+  "license": "ISC"
+}
